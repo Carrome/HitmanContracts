@@ -1,0 +1,31 @@
+{
+  "fileType": "DialogPreset",
+  "type": "DialogPreset",
+  "name": "HitmanPassionCallDialog",
+  "presetName": "HitmanPassionCallDialog",
+  "copyFrom": "REF:DialogPreset|Job_Meet_Specific",
+  "responses": [
+    {
+      "dictionaryString": "Recieve Info",
+      "ddsMessageID": "9a1043d5-adee-4b5c-ba76-d3e9772f8e9c",
+      "isSuccessful": true,
+      "chance": 1,
+      "useParsing": true,
+      "shout": false,
+      "interupt": false,
+      "onlyIfEnfocerOnDuty": false,
+      "onlyIfNotEnforcerOnDuty": false,
+      "mustFeatureTrait": [],
+      "cantFeatureTrait": [],
+      "mustBeKillerWithMotive": [],
+      "useMurderMOConfession": false,
+      "tieKeys": [],
+      "applyDiscovery": [],
+      "endsDialog": true,
+      "jobHandIn": false,
+      "startCombat": false,
+      "flee": false,
+      "giveUpSelf": false
+    }
+  ]
+}

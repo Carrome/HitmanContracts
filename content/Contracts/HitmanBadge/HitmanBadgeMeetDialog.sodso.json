@@ -1,0 +1,31 @@
+{
+  "fileType": "DialogPreset",
+  "type": "DialogPreset",
+  "name": "HitmanBadgeMeetDialog",
+  "presetName": "HitmanBadgeMeetDialog",
+  "copyFrom": "REF:DialogPreset|Job_Meet_Vandalism",
+  "responses": [
+    {
+      "dictionaryString": "Recieve Info",
+      "ddsMessageID": "915f8ec5-485a-4888-95e3-baba69b4fe33",
+      "isSuccessful": true,
+      "chance": 1,
+      "useParsing": true,
+      "shout": false,
+      "interupt": false,
+      "onlyIfEnfocerOnDuty": false,
+      "onlyIfNotEnforcerOnDuty": false,
+      "mustFeatureTrait": [],
+      "cantFeatureTrait": [],
+      "mustBeKillerWithMotive": [],
+      "useMurderMOConfession": false,
+      "tieKeys": [],
+      "applyDiscovery": [],
+      "endsDialog": true,
+      "jobHandIn": false,
+      "startCombat": false,
+      "flee": false,
+      "giveUpSelf": false
+    }
+  ]
+}

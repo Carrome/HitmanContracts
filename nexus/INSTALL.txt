@@ -1,0 +1,32 @@
+HITMAN CONTRACTS — manual install (Nexus Mods)
+===============================================
+
+1. Install BepInEx 6 IL2CPP for Shadows of Doubt and run the game once, so that BepInEx creates its folders.
+2. Install the dependencies into BepInEx\plugins (each from its own page):
+   - SOD.Common 2.0.7 (Venomaus). IMPORTANT: version 2.0.7. Newer versions do not load on the September 2024 game build.
+   - Asset Bundle Loader, DDSLoader and CommunityCaseLoader (Piepieonline).
+3. Copy the "BepInEx" folder from this archive into the game folder (next to "Shadows of Doubt.exe") and merge it.
+   You should end up with:  <game>\BepInEx\plugins\SOD.Hitman\SOD.Hitman.dll
+4. Start the game. The settings file appears at  BepInEx\config\sod.hitman.cfg
+
+Not compatible with the "Guns" mod.
+
+Developer mode (optional): create an empty file named devmode.txt in BepInEx\plugins\SOD.Hitman\
+It turns on the test hotkeys, the test menu (Insert key) and detailed logging. Delete it to go back to normal.
+
+
+HITMAN CONTRACTS — instalação manual (Nexus Mods)
+=================================================
+
+1. Instale o BepInEx 6 IL2CPP para Shadows of Doubt e abra o jogo uma vez, para ele criar as pastas.
+2. Instale as dependências em BepInEx\plugins (cada uma na sua página):
+   - SOD.Common 2.0.7 (Venomaus). IMPORTANTE: a versão 2.0.7. As mais novas não carregam na versão de setembro de 2024 do jogo.
+   - Asset Bundle Loader, DDSLoader e CommunityCaseLoader (Piepieonline).
+3. Copie a pasta "BepInEx" deste arquivo para a pasta do jogo (ao lado de "Shadows of Doubt.exe") e junte as pastas.
+   O resultado deve ser:  <jogo>\BepInEx\plugins\SOD.Hitman\SOD.Hitman.dll
+4. Abra o jogo. As configurações ficam em  BepInEx\config\sod.hitman.cfg
+
+Incompatível com o mod "Guns".
+
+Modo de desenvolvedor (opcional): crie um arquivo vazio chamado devmode.txt em BepInEx\plugins\SOD.Hitman\
+Ele liga as teclas de teste, o menu de teste (tecla Insert) e o log detalhado. Apague-o para voltar ao normal.

@@ -1,0 +1,9 @@
+{
+  "fileType": "InteractablePreset",
+  "type": "InteractablePreset",
+  "name": "HitmanTranquilizerPistol",
+  "presetName": "HitmanTranquilizerPistol",
+  "copyFrom": "REF:InteractablePreset|SemiAutomaticPistolSilenced",
+  "spawnable": true,
+  "value": { "x": 900.0, "y": 900.0 }
+}

@@ -1,0 +1,18 @@
+{
+  "fileType": "MotivePreset",
+  "type": "MotivePreset",
+  "name": "HitmanCallMotive",
+  "presetName": "HitmanCallMotive",
+  "copyFrom": "REF:MotivePreset|Money",
+  "allowHomelessPurps": false,
+  "allowJoblessPurps": false,
+  "purpMustLiveAtDifferentAddressToPoster": true,
+  "allowEnforcers": false,
+  "usePurpJobs": false,
+  "purpJobs": [  ],
+  "allowHomelessPosters": false,
+  "purpIsExemptFromPostingOtherJobs": true,
+  "purpIsExemptFromPurpingOtherJobs": true,
+  "posterIsExemptFromPostingOtherJobs": true,
+  "posterIsExemptFromPurpingOtherJobs": true
+}

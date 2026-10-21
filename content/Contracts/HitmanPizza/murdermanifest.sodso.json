@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "fileOrder": [
+    "REF:HitmanKill",
+    "REF:HitmanPizzaMotive",
+    "REF:HitmanPizzaCallDialog",
+    "REF:HitmanPizzaMeetDialog",
+    "REF:HitmanPizza"
+  ],
+  "version": 1
+}

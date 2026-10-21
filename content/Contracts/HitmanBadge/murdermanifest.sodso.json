@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "fileOrder": [
+    "REF:HitmanKillBadge",
+    "REF:HitmanBadgeMotive",
+    "REF:HitmanBadgeCallDialog",
+    "REF:HitmanBadgeMeetDialog",
+    "REF:HitmanBadge"
+  ],
+  "version": 1
+}

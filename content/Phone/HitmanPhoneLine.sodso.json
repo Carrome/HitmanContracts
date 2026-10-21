@@ -1,0 +1,31 @@
+{
+  "fileType": "DialogPreset",
+  "type": "DialogPreset",
+  "name": "HitmanPhoneLine",
+  "presetName": "HitmanPhoneLine",
+  "copyFrom": "REF:DialogPreset|Job_Chase_Start",
+  "responses": [
+    {
+      "dictionaryString": "Success",
+      "ddsMessageID": "1d60c5b7-2474-4ec5-9e54-9fff17714a07",
+      "isSuccessful": true,
+      "chance": 1,
+      "useParsing": true,
+      "shout": false,
+      "interupt": false,
+      "onlyIfEnfocerOnDuty": false,
+      "onlyIfNotEnforcerOnDuty": false,
+      "mustFeatureTrait": [],
+      "cantFeatureTrait": [],
+      "mustBeKillerWithMotive": [],
+      "useMurderMOConfession": false,
+      "tieKeys": [],
+      "applyDiscovery": [],
+      "endsDialog": true,
+      "jobHandIn": false,
+      "startCombat": false,
+      "flee": false,
+      "giveUpSelf": false
+    }
+  ]
+}

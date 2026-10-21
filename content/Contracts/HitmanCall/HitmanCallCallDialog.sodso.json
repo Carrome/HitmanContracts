@@ -1,0 +1,31 @@
+{
+  "fileType": "DialogPreset",
+  "type": "DialogPreset",
+  "name": "HitmanCallCallDialog",
+  "presetName": "HitmanCallCallDialog",
+  "copyFrom": "REF:DialogPreset|Job_Direct_Vandalism",
+  "responses": [
+    {
+      "dictionaryString": "Recieve Info",
+      "ddsMessageID": "c6a38b88-fa39-4850-a184-f41a3b3d5316",
+      "isSuccessful": true,
+      "chance": 1,
+      "useParsing": true,
+      "shout": false,
+      "interupt": false,
+      "onlyIfEnfocerOnDuty": false,
+      "onlyIfNotEnforcerOnDuty": false,
+      "mustFeatureTrait": [],
+      "cantFeatureTrait": [],
+      "mustBeKillerWithMotive": [],
+      "useMurderMOConfession": false,
+      "tieKeys": [],
+      "applyDiscovery": [],
+      "endsDialog": true,
+      "jobHandIn": false,
+      "startCombat": false,
+      "flee": false,
+      "giveUpSelf": false
+    }
+  ]
+}

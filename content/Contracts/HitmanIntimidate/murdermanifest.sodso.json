@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "fileOrder": [
+    "REF:HitmanIntimidateMotive",
+    "REF:HitmanIntimidateCallDialog",
+    "REF:HitmanIntimidateMeetDialog",
+    "REF:HitmanIntimidate"
+  ],
+  "version": 1
+}

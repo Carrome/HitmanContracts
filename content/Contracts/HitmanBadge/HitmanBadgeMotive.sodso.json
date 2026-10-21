@@ -1,0 +1,18 @@
+{
+  "fileType": "MotivePreset",
+  "type": "MotivePreset",
+  "name": "HitmanBadgeMotive",
+  "presetName": "HitmanBadgeMotive",
+  "copyFrom": "REF:MotivePreset|RevengeGeneral",
+  "allowHomelessPurps": false,
+  "allowJoblessPurps": false,
+  "purpMustLiveAtDifferentAddressToPoster": true,
+  "allowEnforcers": true,
+  "usePurpJobs": true,
+  "purpJobs": [ "REF:OccupationPreset|Enforcer", "REF:OccupationPreset|EnforcerCaptain", "REF:OccupationPreset|SecurityGuard", "REF:OccupationPreset|DebtCollector" ],
+  "allowHomelessPosters": false,
+  "purpIsExemptFromPostingOtherJobs": true,
+  "purpIsExemptFromPurpingOtherJobs": true,
+  "posterIsExemptFromPostingOtherJobs": true,
+  "posterIsExemptFromPurpingOtherJobs": true
+}

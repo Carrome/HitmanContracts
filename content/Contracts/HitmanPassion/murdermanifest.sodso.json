@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "fileOrder": [
+    "REF:HitmanKillPassion",
+    "REF:HitmanPassionMotive",
+    "REF:HitmanPassionCallDialog",
+    "REF:HitmanPassionMeetDialog",
+    "REF:HitmanPassion"
+  ],
+  "version": 1
+}

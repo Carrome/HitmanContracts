@@ -1,0 +1,31 @@
+{
+  "fileType": "DialogPreset",
+  "type": "DialogPreset",
+  "name": "HitmanPizzaCallDialog",
+  "presetName": "HitmanPizzaCallDialog",
+  "copyFrom": "REF:DialogPreset|Job_Meet_Specific",
+  "responses": [
+    {
+      "dictionaryString": "Recieve Info",
+      "ddsMessageID": "1d6c1ad9-961d-4b42-84c5-0babc8efd0d0",
+      "isSuccessful": true,
+      "chance": 1,
+      "useParsing": true,
+      "shout": false,
+      "interupt": false,
+      "onlyIfEnfocerOnDuty": false,
+      "onlyIfNotEnforcerOnDuty": false,
+      "mustFeatureTrait": [],
+      "cantFeatureTrait": [],
+      "mustBeKillerWithMotive": [],
+      "useMurderMOConfession": false,
+      "tieKeys": [],
+      "applyDiscovery": [],
+      "endsDialog": true,
+      "jobHandIn": false,
+      "startCombat": false,
+      "flee": false,
+      "giveUpSelf": false
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "fileType": "JobPreset",
+  "type": "JobPreset",
+  "name": "HitmanPizza",
+  "presetName": "HitmanPizza",
+  "copyFrom": "REF:JobPreset|VandalismHome_D3",
+  "disabled": false,
+  "caseName": "HitmanPizza",
+  "jobPosting": "REF:InteractablePreset|JobNote",
+  "subClass": "",
+  "allowSyncDiskRewards": false,
+  "allowBlackMarketSyncDiskRewards": false,
+  "physicalRewardLocation": 1,
+  "generateHidingLocation": false,
+  "socialCreditLevelMinSpawnFrequency": {
+    "serializedVersion": "2",
+    "m_Curve": [
+      { "serializedVersion": "3", "time": 0.0, "value": 1.0, "inSlope": 0.0, "outSlope": 0.0, "weightedMode": 0, "inWeight": 0.0, "outWeight": 0.0 },
+      { "serializedVersion": "3", "time": 10.0, "value": 1.0, "inSlope": 0.0, "outSlope": 0.0, "weightedMode": 0, "inWeight": 0.0, "outWeight": 0.0 }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "activePerCitizen": 0.004999999888241291,
+  "maxJobs": 3,
+  "immediatePostCountThreshold": 2,
+  "difficultyTag": 0,
+  "changePosterDialogCompliancy": 0,
+  "changePerpDialogCompliancy": 0,
+  "purpetratorMotives": [
+    "REF:MotivePreset|HitmanPizzaMotive"
+  ],
+  "penaltyForPurpAndPosterSameBuilding": 0,
+  "startingScenarios": [
+    {
+      "name": "HitmanPizza",
+      "dds": "5ee2a479-67c5-4066-b8be-7f664fcd6a68",
+      "leads": []
+    }
+  ],
+  "compatibleIntros": [
+    {
+      "preset": "REF:SideMissionIntroPreset|Dossier-MeetUpSpecificLocation",
+      "frequency": 1
+    }
+  ],
+  "leadPoolData": 0,
+  "createFactsOnInformationAcquisition": [
+    {
+      "factPreset": "REF:FactPreset|IsTarget",
+      "from": 13,
+      "to": 2,
+      "overrideFromKeys": false,
+      "fromKeys": [],
+      "featureKeysFromLeadPool": false,
+      "overrideToKeys": true,
+      "toKeys": [ 0 ],
+      "featureKeysFromLeadPoolTo": false
+    }
+  ],
+  "informationAcquisitionLeads": [
+    {
+      "leadEvidence": 2,
+      "keys": [ 0 ],
+      "useKeyFromLeadPool": false,
+      "autoPin": true,
+      "addDialogOptions": [],
+      "factsReveal": [],
+      "mergeKeys": [],
+      "discoveryApplication": [ 2 ]
+    },
+    {
+      "leadEvidence": 8,
+      "keys": [ 0 ],
+      "useKeyFromLeadPool": false,
+      "autoPin": true,
+      "addDialogOptions": [],
+      "factsReveal": [],
+      "mergeKeys": [],
+      "discoveryApplication": []
+    }
+  ],
+  "revengeObjectives": [
+    "REF:RevengeObjective|HitmanKill"
+  ],
+  "spawnItems": [],
+  "resolveQuestions": [
+    {
+      "name": "Revenge",
+      "displayObjective": true,
+      "displayOnlyAtPhase": false,
+      "displayAtPhase": 0,
+      "objectiveDelay": 0.0,
+      "onlyCompatibleWithIntros": [],
+      "onlyCompatibleWithHandIns": [],
+      "inputType": 3,
+      "automaticAnswers": [],
+      "tag": 1,
+      "icon": 22,
+      "rewardRange": { "x": 1000.0, "y": 1000.0 },
+      "penaltyRange": { "x": 0.0, "y": 0.0 },
+      "isOptional": false,
+      "useAlternateName": false,
+      "useName": 0,
+      "target": 2,
+      "location": 2,
+      "revengeObjective": "",
+      "revengeObjTarget": -1,
+      "revengeObjLoc": -1,
+      "revengeObjPassed": 0.0,
+      "completedRevenge": false,
+      "input": "",
+      "inputtedEvidence": "",
+      "correctAnswers": [],
+      "progress": 0.0,
+      "reward": 0,
+      "penalty": 0,
+      "isValid": false,
+      "isCorrect": false
+    }
+  ],
+  "additional": [],
+  "compatibleHandIns": [
+    {
+      "preset": "REF:SideMissionHandInPreset|SlipUnderDoor",
+      "frequency": 1
+    }
+  ],
+  "dialogReferences": [
+    {
+      "name": "IntroMeetUpSpecific1",
+      "dialog": "REF:DialogPreset|HitmanPizzaCallDialog"
+    },
+    {
+      "name": "IntroMeetUpSpecific2",
+      "dialog": "REF:DialogPreset|HitmanPizzaMeetDialog"
+    },
+    {
+      "name": "TelephoneHandIn",
+      "dialog": "REF:DialogPreset|Job_Generic_TelephoneHandIn"
+    }
+  ],
+  "debugCopyFrom": null
+}

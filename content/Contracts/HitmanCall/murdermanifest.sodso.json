@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "fileOrder": [
+    "REF:HitmanKillCall",
+    "REF:HitmanCallMotive",
+    "REF:HitmanCallCallDialog",
+    "REF:HitmanCall"
+  ],
+  "version": 1
+}

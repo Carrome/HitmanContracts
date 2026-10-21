@@ -1,0 +1,17 @@
+{
+  "fileType": "MotivePreset",
+  "type": "MotivePreset",
+  "name": "HitmanIntimidateMotive",
+  "presetName": "HitmanIntimidateMotive",
+  "copyFrom": "REF:MotivePreset|RevengeGeneral-NoEnforcers",
+  "allowHomelessPurps": false,
+  "allowJoblessPurps": false,
+  "purpMustLiveAtDifferentAddressToPoster": true,
+  "allowEnforcers": false,
+  "usePurpJobs": false,
+  "allowHomelessPosters": false,
+  "purpIsExemptFromPostingOtherJobs": true,
+  "purpIsExemptFromPurpingOtherJobs": true,
+  "posterIsExemptFromPostingOtherJobs": true,
+  "posterIsExemptFromPurpingOtherJobs": true
+}

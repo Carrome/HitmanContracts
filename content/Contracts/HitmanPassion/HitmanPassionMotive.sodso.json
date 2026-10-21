@@ -1,0 +1,18 @@
+{
+  "fileType": "MotivePreset",
+  "type": "MotivePreset",
+  "name": "HitmanPassionMotive",
+  "presetName": "HitmanPassionMotive",
+  "copyFrom": "REF:MotivePreset|Lust",
+  "allowHomelessPurps": false,
+  "allowJoblessPurps": false,
+  "purpMustLiveAtDifferentAddressToPoster": false,
+  "allowEnforcers": false,
+  "usePurpJobs": false,
+  "purpJobs": [  ],
+  "allowHomelessPosters": false,
+  "purpIsExemptFromPostingOtherJobs": true,
+  "purpIsExemptFromPurpingOtherJobs": true,
+  "posterIsExemptFromPostingOtherJobs": true,
+  "posterIsExemptFromPurpingOtherJobs": true
+}

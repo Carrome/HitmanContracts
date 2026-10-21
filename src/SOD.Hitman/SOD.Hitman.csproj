@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>SOD.Hitman</AssemblyName>
+    <RootNamespace>SODHitman</RootNamespace>
+    <Version>1.2.6</Version>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <!-- Game folder, with BepInEx 6 IL2CPP already run once so BepInEx/interop exists -->
+    <GameDir Condition="'$(GameDir)' == ''">E:\Shadows of Doubt</GameDir>
+    <PluginDir Condition="'$(PluginDir)' == ''">$(GameDir)\BepInEx\plugins\SOD.Hitman</PluginDir>
+    <SodCommonDll Condition="'$(SodCommonDll)' == ''">$(GameDir)\BepInEx\plugins\Venomaus-SODCommon\SOD.Common.dll</SodCommonDll>
+    <!-- Data files (JSON presets, DDS text) shipped next to the dll -->
+    <ModContentDir>$(MSBuildProjectDirectory)\..\..\content</ModContentDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="$(GameDir)\BepInEx\core\BepInEx.Core.dll" Private="false" />
+    <Reference Include="$(GameDir)\BepInEx\core\BepInEx.Unity.IL2CPP.dll" Private="false" />
+    <Reference Include="$(GameDir)\BepInEx\core\Il2CppInterop.Runtime.dll" Private="false" />
+    <Reference Include="$(GameDir)\BepInEx\core\Il2CppInterop.Common.dll" Private="false" />
+    <Reference Include="$(GameDir)\BepInEx\core\0Harmony.dll" Private="false" />
+    <Reference Include="$(GameDir)\BepInEx\interop\*.dll" Private="false" />
+    <Reference Include="$(SodCommonDll)" Private="false" />
+    <!-- UI for the test menu; shipped and initialized by SOD.Common (same file in Asset Bundle Loader) -->
+    <Reference Include="$([System.IO.Path]::GetDirectoryName('$(SodCommonDll)'))\UniverseLib.IL2CPP.Interop.dll" Private="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ModContent Include="$(ModContentDir)\**\*" />
+  </ItemGroup>
+
+  <!-- Copy the built plugin and its data into BepInEx/plugins (dll copy skipped with a warning while the game holds the file) -->
+  <Target Name="DeployPlugin" AfterTargets="Build">
+    <MakeDir Directories="$(PluginDir)" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(PluginDir)" Retries="0" ContinueOnError="WarnAndContinue" />
+    <Copy SourceFiles="@(ModContent)" DestinationFiles="@(ModContent->'$(PluginDir)\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+  </Target>
+
+</Project>

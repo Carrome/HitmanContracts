@@ -1,0 +1,13 @@
+{
+  "name": "HitmanContracts",
+  "version_number": "1.2.6",
+  "website_url": "",
+  "description": "Become a contract killer: assassination contracts, stealth and evidence, heat and interrogations, a corrupt cop, a Fixer, career tiers, a full arsenal, consequences and a story campaign.",
+  "dependencies": [
+    "BepInEx-BepInExPack_IL2CPP-6.0.755",
+    "Venomaus-SODCommon-2.0.7",
+    "Piepieonline-Asset_Bundle_Loader-2.2.1",
+    "Piepieonline-DDSLoader-1.1.1",
+    "Piepieonline-CommunityCaseLoader-1.1.1"
+  ]
+}

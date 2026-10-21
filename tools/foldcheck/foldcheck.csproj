@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Reuses the LibCpp2IL that ships with BepInEx (the same one that generated the interop assemblies). -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RollForward>Major</RollForward>
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GameDir Condition="'$(GameDir)' == ''">E:\Shadows of Doubt</GameDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(GameDir)\BepInEx\core\LibCpp2IL.dll" />
+    <Reference Include="$(GameDir)\BepInEx\core\AssetRipper.Primitives.dll" />
+    <Reference Include="$(GameDir)\BepInEx\core\WasmDisassembler.dll" />
+    <Reference Include="$(GameDir)\BepInEx\core\StableNameDotNet.dll" />
+  </ItemGroup>
+</Project>
